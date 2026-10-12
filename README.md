@@ -35,7 +35,7 @@ Before using `waku`, make sure you have the following installed:
 Make sure you have [Rust](https://www.rust-lang.org/tools/install) installed:
 
 ```bash
-git clone https://github.com/your-username/waku.git
+git clone [https://github.com/your-username/waku.git](https://github.com/sapph1rer/Waku-cli.git)
 cd waku
 cargo install --path .
 ```
