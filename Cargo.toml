@@ -1,0 +1,15 @@
+[package]
+name = "wakucli"
+version = "0.1.0"
+edition = "2024"
+description = "wakucli"
+
+[dependencies]
+anyhow = "1"
+clap = { version = "4.4", features = ["derive"] }
+dialoguer = { version = "0.11", features = ["fuzzy-select"] }
+regex = "1"
+reqwest = { version = "0.11", default-features = false, features = ["blocking", "rustls-tls", "gzip", "json"] }
+scraper = "0.18"
+serde_json = "1"
+url = "2"
